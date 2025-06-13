@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:textSize="30sp"
+        android:id="@+id/hometitle"
+        android:layout_above="@id/hometext"
+        android:layout_alignParentTop="true"
+        android:text=" Home fragment" />
+
+    <TextView
+        android:id="@+id/hometext"
+        android:layout_width="wrap_content"
+        android:layout_height="514dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="102dp"
+        android:background="#2196F3"
+        android:text="Welcome to the Task List App\n \n\n
+    This app lets you track\n
+    your tasks\n
+    Each task has a checkbox\n
+    which you check when\n
+    the task is done.\n
+    Swipe left to delete a task.\n
+    Swipe right to edit a task.\n
+    Add a new task by clicking \n
+    on the '+' button at the\n
+    bottom of the list.\n
+    Your tasks are saved even if you\n
+    shut off your phone!\n
+    To start using the app\n
+    please click on the\n
+    Task List icon in the menu below"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:autoSizeTextType="uniform"
+        tools:visibility="visible" />
+</RelativeLayout>
